@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="QuickSig">
+      <UniqueIdentifier>{f85b9021-47f8-40d9-86cd-753a16ac7e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{32dc9494-a05a-46be-b7f6-5a93ed073a24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Config.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FixedArrayStorage.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HashSetStorage.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\QuickSig.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ResultCombiner.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ResultCombiners.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Set.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SetStorage.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Signal.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SignalsFwd.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\StoragePolicy.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Synchronization.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Trackable.h">
+      <Filter>QuickSig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FastDelegate.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CombinerTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="MultithreadingTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PolicyCompilation.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalCompilation.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackableCompilation.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsortedVectorAsserts.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Signal.hxx" />
+  </ItemGroup>
+</Project>
